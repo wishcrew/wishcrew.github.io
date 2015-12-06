@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'ProximaNovaAltExtraCondensedBold';
+    src: url('ProximaNovaAltExtraCondensedBold.eot');
+    src: url('ProximaNovaAltExtraCondensedBold.eot') format('embedded-opentype'),
+         url('ProximaNovaAltExtraCondensedBold.woff2') format('woff2'),
+         url('ProximaNovaAltExtraCondensedBold.woff') format('woff'),
+         url('ProximaNovaAltExtraCondensedBold.ttf') format('truetype'),
+         url('ProximaNovaAltExtraCondensedBold.svg#ProximaNovaAltExtraCondensedBold') format('svg');
+}
+@font-face {
+    font-family: 'ProximaNovaAltExtraCondensedSemibold';
+    src: url('ProximaNovaAltExtraCondensedSemibold.eot');
+    src: url('ProximaNovaAltExtraCondensedSemibold.eot') format('embedded-opentype'),
+         url('ProximaNovaAltExtraCondensedSemibold.woff2') format('woff2'),
+         url('ProximaNovaAltExtraCondensedSemibold.woff') format('woff'),
+         url('ProximaNovaAltExtraCondensedSemibold.ttf') format('truetype'),
+         url('ProximaNovaAltExtraCondensedSemibold.svg#ProximaNovaAltExtraCondensedSemibold') format('svg');
+}
+
+@font-face {
+    font-family: 'proxima_nova_rgregular';
+    src: url('proximanova-regular-webfont.eot');
+    src: url('proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('proximanova-regular-webfont.woff2') format('woff2'),
+         url('proximanova-regular-webfont.woff') format('woff'),
+         url('proximanova-regular-webfont.ttf') format('truetype'),
+         url('proximanova-regular-webfont.svg#proxima_nova_rgregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'proxima_nova_ththin';
+    src: url('proxima_nova_thin-webfont.eot');
+    src: url('proxima_nova_thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('proxima_nova_thin-webfont.woff2') format('woff2'),
+         url('proxima_nova_thin-webfont.woff') format('woff'),
+         url('proxima_nova_thin-webfont.ttf') format('truetype'),
+         url('proxima_nova_thin-webfont.svg#proxima_nova_ththin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
