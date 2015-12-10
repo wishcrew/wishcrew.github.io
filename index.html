@@ -13,6 +13,38 @@
 
     <style type="text/css">
         html, body { margin:0; padding:0; overflow:hidden }
+        .firstScreen {
+	        display: block;
+        }
+
+        .secondScreen {
+	        display : none;
+        }
+
+        .makeButton {
+	        width:200px;
+	        height:55px;
+	        color: #993d00;
+	        background: #ffe0cc;
+	        font-size:18px;
+	        border: 2px solid #993d00;
+            border-radius: 6px;
+	        outline: none;
+	        cursor: pointer;
+        }
+        .makeButton:hover, .makeButton:focus, .makeButton:active {
+          color: #e65c00;
+          border: 2px solid #ff8000;
+          background: #ffc180;
+        }
+        .makeButton:hover:before, .makeButton:focus:before, .makeButton:active:before {
+          -webkit-transform: scaleX(0.2);
+          transform: scaleX(0.2);
+        }
+
+
+
+
         /*svg { position:fixed; top:0; left:0; height:100%; width:100% }*/
 
         @keyframes falldown_1 {
@@ -36,21 +68,21 @@
         }
 
 		@keyframes falldown_2 { 
-	        0% {	transform: translateY(-800px) translateX(264px) rotate(45deg);}
+	        0% {	transform: translateY(-900px) translateX(264px) rotate(45deg);}
 			70% {	transform: translateY(-352px) translateX(264px) rotate(45deg); opacity:0;}
 	        100% {	transform: translateY(-352px) translateX(264px) rotate(45deg); opacity:0;}
         }
 
         @-webkit-keyframes falldown_2
         {
-	        0% {	transform: translateY(-800px) translateX(264px) rotate(45deg);}
+	        0% {	transform: translateY(-900px) translateX(264px) rotate(45deg);}
 			70% {	transform: translateY(-352px) translateX(264px) rotate(45deg); opacity:0;}
 	        100% {	transform: translateY(-352px) translateX(264px) rotate(45deg); opacity:0;}
         }
 
         @-moz-keyframes falldown_2
         {
-	        0% {	transform: translateY(-800px) translateX(264px) rotate(45deg);}
+	        0% {	transform: translateY(-900px) translateX(264px) rotate(45deg);}
 			70% {	transform: translateY(-352px) translateX(264px) rotate(45deg); opacity:0;}
 	        100% {	transform: translateY(-352px) translateX(264px) rotate(45deg); opacity:0;}
         }
@@ -76,21 +108,21 @@
         }
 		
 		@keyframes falldown_5 {  
-	        0% {	transform: translateY(-700px) translateX(292px) rotate(45deg);}
+	        0% {	transform: translateY(-900px) translateX(292px) rotate(45deg);}
 			70% {	transform: translateY(-234px) translateX(292px) rotate(45deg); opacity:0;}
 	        100% {	transform: translateY(-234px) translateX(292px) rotate(45deg); opacity:0;}
         }
 
         @-webkit-keyframes falldown_5
         {
-	        0% {	transform: translateY(-700px) translateX(292px) rotate(45deg);}
+	        0% {	transform: translateY(-900px) translateX(292px) rotate(45deg);}
 			70% {	transform: translateY(-234px) translateX(292px) rotate(45deg); opacity:0;}
 	        100% {	transform: translateY(-234px) translateX(292px) rotate(45deg); opacity:0;}
         }
 
         @-moz-keyframes falldown_5
         {
-	        0% {	transform: translateY(-700px) translateX(292px) rotate(45deg);}
+	        0% {	transform: translateY(-900px) translateX(292px) rotate(45deg);}
 			70% {	transform: translateY(-234px) translateX(292px) rotate(45deg); opacity:0;}
 	        100% {	transform: translateY(-234px) translateX(292px) rotate(45deg); opacity:0;}
         }
@@ -156,41 +188,41 @@
         }
 
 		@keyframes falldown_9 { 
-	        0% {	transform: translateY(-700px) translateX(225px) rotate(45deg);}
+	        0% {	transform: translateY(-800px) translateX(225px) rotate(45deg);}
 			90% {	transform: translateY(-253px) translateX(225px) rotate(45deg); opacity:0;}
 	        100% {	transform: translateY(-253px) translateX(225px) rotate(45deg); opacity:0;}
         }
 
         @-webkit-keyframes falldown_9
         {
-	        0% {	transform: translateY(-700px) translateX(225px) rotate(45deg);}
+	        0% {	transform: translateY(-800px) translateX(225px) rotate(45deg);}
 			90% {	transform: translateY(-253px) translateX(225px) rotate(45deg); opacity:0;}
 	        100% {	transform: translateY(-253px) translateX(225px) rotate(45deg); opacity:0;}
         }
 
         @-moz-keyframes falldown_9
         {
-	        0% {	transform: translateY(-700px) translateX(225px) rotate(45deg);}
+	        0% {	transform: translateY(-800px) translateX(225px) rotate(45deg);}
 			90% {	transform: translateY(-253px) translateX(225px) rotate(45deg); opacity:0;}
 	        100% {	transform: translateY(-253px) translateX(225px) rotate(45deg); opacity:0;}
         }
 
 		@keyframes falldown_10 { 
-	        0% {	transform: translateY(-700px) translateX(230px) rotate(45deg);}
+	        0% {	transform: translateY(-1000px) translateX(230px) rotate(45deg);}
 			80% {	transform: translateY(-335px) translateX(230px) rotate(45deg); opacity:0;}
 	        100% {	transform: translateY(-335px) translateX(230px) rotate(45deg); opacity:0;}
         }
 
         @-webkit-keyframes falldown_10
         {
-	        0% {	transform: translateY(-700px) translateX(230px) rotate(45deg);}
+	        0% {	transform: translateY(-1000px) translateX(230px) rotate(45deg);}
 			80% {	transform: translateY(-335px) translateX(230px) rotate(45deg); opacity:0;}
 	        100% {	transform: translateY(-335px) translateX(230px) rotate(45deg); opacity:0;}
         }
 
         @-moz-keyframes falldown_10
         {
-	        0% {	transform: translateY(-700px) translateX(230px) rotate(45deg);}
+	        0% {	transform: translateY(-1000px) translateX(230px) rotate(45deg);}
 			80% {	transform: translateY(-335px) translateX(230px) rotate(45deg); opacity:0;}
 	        100% {	transform: translateY(-335px) translateX(230px) rotate(45deg); opacity:0;}
         }
@@ -220,6 +252,13 @@
             });
         });
     </script>
+
+    <script type="text/javascript">
+        function goToSecondScreen(){
+	        $('.firstScreen').hide();
+	        $('.secondScreen').show();
+        }
+    </script>
 </head>
 <body>
     <div id="header_mainContainer">
@@ -231,6 +270,7 @@
                     <a href='#' class='lg'></a>
                     <a href='#' class='gp'></a>
                 </div>
+                <!--
                 <div id='nav'>
                     <a href='#' class='menu'>
                         <span></span>
@@ -243,58 +283,53 @@
                         <li><a href='#'>PRIVACY</a></li>
                     </ul>
                 </div>
+                    -->
             </div>
         </div>
     </div>
+
     <form name="index" method="post" action="index.html" id="indexForm">
         <div id="content">
             <div class="container">
-                <div>
-                    <div>
-                        <div style="text-align:center;">
-                            
-                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 792 612" enable-background="new 0 0 792 612" xml:space="preserve">                                
-                                <g id="main_layer">
-									<rect id="wish_11_background" x="0" y="0" opacity="0" fill="#006426" width="1000" height="1000" /> 
+                
+                <div class="firstScreen" style="margin:25%; text-align:center;">                   
+                    
 
-                                    <rect id="wish_1_static" x="73" y="268" transform="matrix(0.7071 0.7071 -0.7071 0.7071 260 6)" opacity="0.35" fill="#BA826E" width="99" height="99" />
-                                    <rect id="wish_1" x="73" y="268"  opacity="0.35" fill="#BA826E" width="99" height="99" />
-                                    
-									<rect id="wish_2_static" x="474" y="60" transform="matrix(0.7071 0.7071 -0.7071 0.7071 264 -352)" opacity="0.35" fill="#BA826E" width="166" height="166" />                                    
-                                    <rect id="wish_2" x="474" y="60" opacity="0.35" fill="#BA826E" width="166" height="166" />
-                                    
-									<rect id="wish_3_mail" x="236" y="128" transform="matrix(0.7071 0.7071 -0.7071 0.7071 329 -199)" fill="#EA6426" width="338" height="338" />                                    
-                                    
-									<rect id="wish_4_static" x="149" y="162" transform="matrix(0.7071 0.7071 -0.7071 0.7071 189 -70)" opacity="0.7" fill="#EA6426" width="62" height="62" />
-                                    <rect id="wish_4" x="149" y="162" opacity="0.7" fill="#EA6426" width="62" height="62" />
-                                    
-									<rect id="wish_5_static" x="369" y="176" transform="matrix(0.7071 0.7071 -0.7071 0.7071 292 -234)" opacity="0.63" fill="#CE5720" width="119" height="119" />
-                                    <rect id="wish_5" x="369" y="176" opacity="0.63" fill="#CE5720" width="119" height="119" />
-                                    
-									<rect id="wish_6_static" x="136" y="218" transform="matrix(0.7071 0.7071 -0.7071 0.7071 264 -61)" fill="#CE5720" width="139" height="139" />
-                                    <rect id="wish_6" x="136" y="218" fill="#CE5720" width="139" height="139" />
-                                    
-									<rect id="wish_7_static" x="276" y="92" transform="matrix(0.7071 0.7071 -0.7071 0.7071 212 -195)" opacity="0.35" fill="#BA826E" width="132" height="132" />
-                                    <rect id="wish_7" x="276" y="92" opacity="0.35" fill="#BA826E" width="132" height="132" />
-                                    
-									<rect id="wish_8_static" x="230" y="403" transform="matrix(0.7071 0.7071 -0.7071 0.7071 412 -69)" opacity="0.35" fill="#BA826E" width="119" height="119" />
-                                    <rect id="wish_8" x="230" y="403" opacity="0.35" fill="#BA826E" width="119" height="119" />
-                                    
-									<rect id="wish_9_static" x="332" y="58" transform="matrix(0.7071 0.7071 -0.7071 0.7071 225 -253)" fill="#CE5720" width="173" height="173" />
-                                    <rect id="wish_9" x="332" y="58" fill="#CE5720" width="173" height="173" />
-                                    
-									<rect id="wish_10_static" x="459" y="50" transform="matrix(0.7071 0.7071 -0.7071 0.7071 230 -335)" opacity="0.81" fill="#CE5720" width="120" height="120" />
-                                    <rect id="wish_10" x="459" y="50" opacity="0.81" fill="#CE5720" width="120" height="120" />
-                                    
-									<text id="wish_crew_text" transform="matrix(0.7032 -0.711 0.711 0.7032 447 578)" fill="#EA6426" font-family="'Pirulen'" font-size="58px">WISH CREW</text>
-									
-                                </g>
-                            </svg>
-                            <div style="color:#cf581e; font-size:30px; text-align:center;">one destination for all your wishes</div>
-                            <button class="btn_1">MAKE A WISH</button>
-                        </div>
-                    </div>
+                    <div style="color:#cf581e; font-size:30px; text-align:center;">one destination for all your wishes</div>
+                    <!--<div><input type="button" value="MAKE A WISH" onclick="goToSecondScreen();" class="makeButton hvr-sweep-to-left" /></div>-->
+                    <button class="btn_1" onclick="goToSecondScreen(); return false;">MAKE A WISH</button>
                 </div>
+
+                <div class="secondScreen">
+                    <div style="width:50%; max-width:400px; min-width:250px; margin:0 auto;">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" transform="scale(0.3)" viewBox="0 -200 800 780" enable-background="new 0 0 800 780" xml:space="preserve">                                
+                            <g id="main_layer"> 
+                                <rect id="wish_1_static" x="73" y="268" transform="matrix(0.7071 0.7071 -0.7071 0.7071 260 6)" opacity="0.35" fill="#BA826E" width="99" height="99" />
+                                <rect id="wish_1" x="73" y="268" opacity="0.35" fill="#BA826E" width="99" height="99" />
+                                <rect id="wish_2_static" x="474" y="60" transform="matrix(0.7071 0.7071 -0.7071 0.7071 264 -352)" opacity="0.35" fill="#BA826E" width="166" height="166" />                                    
+                                <rect id="wish_2" x="474" y="60" opacity="0.35" fill="#BA826E" width="166" height="166" />
+                                <rect id="wish_3_mail" x="236" y="128" transform="matrix(0.7071 0.7071 -0.7071 0.7071 329 -199)" fill="#EA6426" width="338" height="338" />
+                                <rect id="wish_4_static" x="149" y="162" transform="matrix(0.7071 0.7071 -0.7071 0.7071 189 -70)" opacity="0.7" fill="#EA6426" width="62" height="62" />
+                                <rect id="wish_4" x="149" y="162" opacity="0.7" fill="#EA6426" width="62" height="62" />
+                                <rect id="wish_5_static" x="369" y="176" transform="matrix(0.7071 0.7071 -0.7071 0.7071 292 -234)" opacity="0.63" fill="#CE5720" width="119" height="119" />
+                                <rect id="wish_5" x="369" y="176" opacity="0.63" fill="#CE5720" width="119" height="119" />
+                                <rect id="wish_6_static" x="136" y="218" transform="matrix(0.7071 0.7071 -0.7071 0.7071 264 -61)" fill="#CE5720" width="139" height="139" />
+                                <rect id="wish_6" x="136" y="218" fill="#CE5720" width="139" height="139" />
+                                <rect id="wish_7_static" x="276" y="92" transform="matrix(0.7071 0.7071 -0.7071 0.7071 212 -195)" opacity="0.35" fill="#BA826E" width="132" height="132" />
+                                <rect id="wish_7" x="276" y="92" opacity="0.35" fill="#BA826E" width="132" height="132" />
+                                <rect id="wish_8_static" x="230" y="403" transform="matrix(0.7071 0.7071 -0.7071 0.7071 412 -69)" opacity="0.35" fill="#BA826E" width="119" height="119" />
+                                <rect id="wish_8" x="230" y="403" opacity="0.35" fill="#BA826E" width="119" height="119" />
+                                <rect id="wish_9_static" x="332" y="58" transform="matrix(0.7071 0.7071 -0.7071 0.7071 225 -253)" fill="#CE5720" width="173" height="173" />
+                                <rect id="wish_9" x="332" y="58" fill="#CE5720" width="173" height="173" />
+                                <rect id="wish_10_static" x="459" y="50" transform="matrix(0.7071 0.7071 -0.7071 0.7071 230 -335)" opacity="0.81" fill="#CE5720" width="120" height="120" />
+                                <rect id="wish_10" x="459" y="50" opacity="0.81" fill="#CE5720" width="120" height="120" />
+                                <text id="wish_crew_text" transform="matrix(0.7032 -0.711 0.711 0.7032 447 578)" fill="#EA6426" font-family="'Pirulen'" font-size="58px">WISH CREW</text>
+                            </g>
+                        </svg>                        
+                    </div>
+                    
+                    <div style="color:#cf581e; font-size:30px; text-align:center;">Stay tuned while we gather our crew</div>
+                </div>            
             </div>
         </div>
     </form>
