@@ -1,0 +1,72 @@
+﻿@import url(https://fonts.googleapis.com/css?family=Orbitron:400,500);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	background-image: url('images/bg-image.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.content {
+	position: relative;
+}
+
+.header, .footer {
+	background-color: rgba(233,233,233, 0.7);
+}
+
+	.header .logo {
+		padding-left: 30px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+
+.footer {
+	padding: 10px;
+	overflow: hidden;
+	clear: both;
+}
+
+	.footer .copyright {
+		float: right;
+		color: #939393;
+		padding-right: 10px;
+		height: 20px;
+	}
+
+.welcome {
+	text-align: center;
+	clear: both;
+}
+
+	.welcome .slogan {
+		color: #CF581E;
+		font-size: 30px;
+		margin-bottom: 15px;
+	}
+
+	.welcome a {
+		border: 1px solid #CF581E;
+		text-decoration: none;
+		color: #CF581E;
+		font-size: 28px;
+		text-transform: uppercase;
+		padding: 5px 100px;
+		display: inline-block;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+	}
+
+		.welcome a:hover {
+			background-color: #CF581E;
+			color: #FFFFFF;
+		}
+
+	.welcome .second {
+		display: none;
+	}

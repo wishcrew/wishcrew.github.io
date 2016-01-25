@@ -1,0 +1,282 @@
+﻿@keyframes flake_1_fall {
+	0% {
+		top: -600px;
+		opacity: 0;
+	}
+
+	50% {
+		opacity: 1;
+	}
+
+	90% {
+		opacity: 0;
+	}
+
+	100% {
+		top: 130px;
+		opacity: 0;
+	}
+}
+
+@keyframes flake_2_fall {
+	0% {
+		top: -600px;
+		opacity: 0;
+	}
+
+	50% {
+		opacity: 1;
+	}
+
+	90% {
+		opacity: 0;
+	}
+
+	100% {
+		top: 180px;
+		opacity: 0;
+	}
+}
+
+@keyframes flake_3_fall {
+	0% {
+		top: -600px;
+		opacity: 0;
+	}
+
+	50% {
+		opacity: 1;
+	}
+
+	90% {
+		opacity: 0;
+	}
+
+	100% {
+		top: 41px;
+		opacity: 0;
+	}
+}
+
+@keyframes flake_4_fall {
+	0% {
+		top: -600px;
+		opacity: 0;
+	}
+
+	50% {
+		opacity: 1;
+	}
+
+	90% {
+		opacity: 0;
+	}
+
+	100% {
+		top: 26px;
+		opacity: 0;
+	}
+}
+
+@keyframes flake_5_fall {
+	0% {
+		top: -600px;
+		opacity: 0;
+	}
+
+	50% {
+		opacity: 1;
+	}
+
+	90% {
+		opacity: 0;
+	}
+
+	100% {
+		top: 72px;
+		opacity: 0;
+	}
+}
+
+@keyframes flake_6_fall {
+	0% {
+		top: -600px;
+		opacity: 0;
+	}
+
+	50% {
+		opacity: 1;
+	}
+
+	90% {
+		opacity: 0;
+	}
+
+	100% {
+		top: 97px;
+		opacity: 0;
+	}
+}
+
+@keyframes flake_7_fall {
+	0% {
+		top: -600px;
+		opacity: 0;
+	}
+
+	50% {
+		opacity: 1;
+	}
+
+	90% {
+		opacity: 0;
+	}
+
+	100% {
+		top: 26px;
+		opacity: 0;
+	}
+}
+
+@keyframes flake_8_fall {
+	0% {
+		top: -600px;
+		opacity: 0;
+	}
+
+	50% {
+		opacity: 1;
+	}
+
+	90% {
+		opacity: 0;
+	}
+
+	100% {
+		top: 77px;
+		opacity: 0;
+	}
+}
+
+@keyframes flake_9_fall {
+	0% {
+		top: -600px;
+		opacity: 0;
+	}
+
+	50% {
+		opacity: 1;
+	}
+
+	90% {
+		opacity: 0;
+	}
+
+	100% {
+		top: 22px;
+		opacity: 0;
+	}
+}
+
+.flakes {
+	position: relative;
+	width: 300px;
+	margin: auto;
+}
+
+.flake-1, .flake-2, .flake-3, .flake-4 {
+	background-color: rgba(186, 130, 110, 0.35);
+}
+
+.flake-5 {
+	background-color: rgba(234, 100, 38, 0.70);
+}
+
+.flake-6, .flake-7 {
+	background-color: rgba(206, 87, 32, 1);
+}
+
+.flake-8 {
+	background-color: rgba(206, 87, 32, 0.63);
+}
+
+.flake-9 {
+	background-color: rgba(206, 87, 32, 0.81);
+}
+
+.flake-1 {
+	animation: flake_1_fall 10s infinite;
+	animation-delay: -10s;
+	height: 45px;
+	left: 9px;
+	width: 45px;
+}
+
+.flake-2 {
+	animation: flake_2_fall 8s infinite;
+	animation-delay: -10s;
+	height: 56px;
+	left: 80px;
+	width: 56px;
+}
+
+.flake-3 {
+	animation: flake_3_fall 6s infinite;
+	animation-delay: -10s;
+	height: 60px;
+	left: 101px;
+	width: 60px;
+}
+
+.flake-4 {
+	animation: flake_4_fall 7s infinite;
+	animation-delay: -10s;
+	height: 75px;
+	left: 190px;
+	width: 75px;
+}
+
+.flake-5 {
+	animation: flake_5_fall 5s infinite;
+	animation-delay: -10s;
+	height: 29px;
+	left: 43px;
+	width: 29px;
+}
+
+.flake-6 {
+	animation: flake_6_fall 7s infinite;
+	animation-delay: -10s;
+	height: 65px;
+	left: 38px;
+	width: 65px;
+}
+
+.flake-7 {
+	animation: flake_7_fall 8s infinite;
+	animation-delay: -10s;
+	height: 78px;
+	left: 126px;
+	width: 78px;
+}
+
+.flake-8 {
+	animation: flake_8_fall 8s infinite;
+	animation-delay: -10s;
+	height: 55px;
+	left: 143px;
+	width: 55px;
+}
+
+.flake-9 {
+	animation: flake_9_fall 5s infinite;
+	animation-delay: -10s;
+	height: 56px;
+	left: 184px;
+	width: 56px;
+}
+
+.flakes div {
+	transform: rotate(45deg);
+	position: absolute;
+}
