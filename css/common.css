@@ -24,6 +24,10 @@ body {
 		padding-bottom: 5px;
 	}
 
+		.header .logo img {
+			height: 100px;
+		}
+
 .footer {
 	padding: 10px;
 	overflow: hidden;
@@ -44,17 +48,18 @@ body {
 
 	.welcome .slogan {
 		color: #CF581E;
-		font-size: 30px;
+		font-size: 25px;
 		margin-bottom: 15px;
+		margin-top: 15px;
 	}
 
 	.welcome a {
 		border: 1px solid #CF581E;
 		text-decoration: none;
 		color: #CF581E;
-		font-size: 28px;
+		font-size: 25px;
 		text-transform: uppercase;
-		padding: 5px 100px;
+		padding: 2px 100px;
 		display: inline-block;
 		-moz-border-radius: 5px;
 		-webkit-border-radius: 5px;
@@ -68,6 +73,10 @@ body {
 
 	.welcome .second {
 		display: none;
+	}
+
+	.welcome .logo-large {
+		width:300px;
 	}
 
 @media only screen and (max-width:767px) {
@@ -84,9 +93,9 @@ body {
 		padding-left: 10px;
 	}
 
-	.header a img {
-		height: 48px;
-	}
+		.header .logo a img {
+			height: 50px;
+		}
 }
 
 @media only screen and (max-width:540px) {
