@@ -73,6 +73,7 @@ body {
 @media only screen and (max-width:767px) {
 	.welcome a {
 		font-size: 20px;
+		padding: 5px 50px;
 	}
 
 	.welcome .slogan {
@@ -81,10 +82,6 @@ body {
 
 	.header a img {
 		height: 48px;
-	}
-
-	.header .logo {
-		padding-left: 10px;
 	}
 }
 
